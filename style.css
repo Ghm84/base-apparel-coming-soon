@@ -76,7 +76,7 @@ p {
     padding-bottom: 5rem;
 }
 
-.email-input {
+.email {
     background-color: transparent;
     color: hsl(0, 36%, 70%);
     opacity: 0.6;
@@ -93,7 +93,7 @@ p {
     border-radius: 3rem;
 }
 
-.email-input::placeholder {
+.email::placeholder {
     color: hsl(0, 36%, 70%); 
     font-size: 0.9rem;
   }
@@ -116,7 +116,7 @@ p {
 }
 
 
-.email-input.error {
+.email.error {
     border-color: hsl(0, 74%, 55%);
     background-color: hsl(0, 100%, 95%);
     color: hsl(0, 6%, 24%);
@@ -149,11 +149,11 @@ p {
     display: none; 
 }
   
-.email-input.error + .error-icon {
+.email.error + .error-icon {
     display: block;   
 }
   
-.email-input.error {
+.email.error {
     border-color: hsl(0, 74%, 55%);
     background-color: hsl(0, 100%, 95%);
 }
@@ -240,7 +240,7 @@ p {
         padding-left: 0.5rem;
     }
 
-    .email-input {
+    .email {
         position: relative;
         max-width: 35rem;
         width: 28rem;
@@ -268,7 +268,7 @@ p {
         cursor: pointer;
     }
 
-    .email-input.error {
+    .email.error {
         border-color: hsl(0, 74%, 55%);
         background-color: hsl(0, 100%, 95%);
         color: hsl(0, 6%, 24%);
@@ -301,11 +301,11 @@ p {
         display: none; 
     }
       
-    .email-input.error + .error-icon {
+    .email.error + .error-icon {
         display: block;   
     }
       
-    .email-input.error {
+    .email.error {
         border-color: hsl(0, 74%, 55%);
         background-color: hsl(0, 100%, 95%);
     }
