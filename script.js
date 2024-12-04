@@ -1,5 +1,5 @@
 
-const emailInput = document.querySelector('.email-input');
+const emailInput = document.querySelector('.email');
 const arrowIconContainer = document.querySelector('.arrow-icon-container');
 const arrowIcon = document.querySelector('.arrow-icon');
 const errorIcon = document.querySelector('.error-icon');
